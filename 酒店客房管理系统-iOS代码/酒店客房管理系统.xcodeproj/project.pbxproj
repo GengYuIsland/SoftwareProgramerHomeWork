@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381E5A64693BC33B8CCA4B81 /* libPods-酒店客房管理系统.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C611A71092C71AE93986CCF /* libPods-酒店客房管理系统.a */; };
+		BF8355741FDD640F004199B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8355731FDD640F004199B7 /* AppDelegate.m */; };
+		BF83557C1FDD640F004199B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF83557B1FDD640F004199B7 /* Assets.xcassets */; };
+		BF83557F1FDD640F004199B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF83557D1FDD640F004199B7 /* LaunchScreen.storyboard */; };
+		BF8355821FDD640F004199B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8355811FDD640F004199B7 /* main.m */; };
+		BF83558C1FDD640F004199B7 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83558B1FDD640F004199B7 /* ________Tests.m */; };
+		BF8355971FDD640F004199B7 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8355961FDD640F004199B7 /* ________UITests.m */; };
+		BF8355A91FDD68F3004199B7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8355A71FDD68F3004199B7 /* LoginViewController.m */; };
+		BF8355AA1FDD68F3004199B7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8355A81FDD68F3004199B7 /* LoginViewController.xib */; };
+		BF8355AF1FDD813C004199B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8355AD1FDD813C004199B7 /* HomeViewController.m */; };
+		BF8355B01FDD813C004199B7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8355AE1FDD813C004199B7 /* HomeViewController.xib */; };
+		BF8355B71FDFD1C7004199B7 /* C415F3F13BBD50B1-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF8355B21FDFD1C7004199B7 /* C415F3F13BBD50B1-info.plist */; };
+		BF8355B81FDFD1C7004199B7 /* STLVideoFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8355B41FDFD1C7004199B7 /* STLVideoFunctions.m */; };
+		BF8355B91FDFD1C7004199B7 /* STLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8355B51FDFD1C7004199B7 /* STLVideoViewController.m */; };
+		BF8355BC1FDFD49F004199B7 /* BridgeLoop-640p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF8355BB1FDFD49F004199B7 /* BridgeLoop-640p.mp4 */; };
+		BF8356131FE0CDE7004199B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8356111FE0CDE7004199B7 /* RootViewController.m */; };
+		BF8356141FE0CDE7004199B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8356121FE0CDE7004199B7 /* RootViewController.xib */; };
+		BF8356191FE0CF63004199B7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8356171FE0CF63004199B7 /* LeftViewController.m */; };
+		BF83561A1FE0CF63004199B7 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8356181FE0CF63004199B7 /* LeftViewController.xib */; };
+		BF83563C1FE11B62004199B7 /* OrderManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83563A1FE11B62004199B7 /* OrderManageViewController.m */; };
+		BF83563D1FE11B62004199B7 /* OrderManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF83563B1FE11B62004199B7 /* OrderManageViewController.xib */; };
+		BF8356411FE11C16004199B7 /* GuestInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83563F1FE11C16004199B7 /* GuestInfoViewController.m */; };
+		BF8356421FE11C16004199B7 /* GuestInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8356401FE11C16004199B7 /* GuestInfoViewController.xib */; };
+		BF8356461FE11C28004199B7 /* BusinessStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8356441FE11C28004199B7 /* BusinessStatisticsViewController.m */; };
+		BF8356471FE11C28004199B7 /* BusinessStatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8356451FE11C28004199B7 /* BusinessStatisticsViewController.xib */; };
+		BF83564B1FE11C3B004199B7 /* GuestHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8356491FE11C3B004199B7 /* GuestHistoryViewController.m */; };
+		BF83564C1FE11C3B004199B7 /* GuestHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF83564A1FE11C3B004199B7 /* GuestHistoryViewController.xib */; };
+		BF8356501FE121F5004199B7 /* GuestInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83564F1FE121F5004199B7 /* GuestInfoModel.m */; };
+		BF8356541FE14BA3004199B7 /* GuestDetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8356521FE14BA3004199B7 /* GuestDetailInfoViewController.m */; };
+		BF8356551FE14BA3004199B7 /* GuestDetailInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8356531FE14BA3004199B7 /* GuestDetailInfoViewController.xib */; };
+		BF83565D1FE17A4D004199B7 /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8356581FE17A4D004199B7 /* XAxisView.m */; };
+		BF83565E1FE17A4D004199B7 /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83565A1FE17A4D004199B7 /* WSLineChartView.m */; };
+		BF83565F1FE17A4D004199B7 /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83565B1FE17A4D004199B7 /* YAxisView.m */; };
+		BF8356641FE1865D004199B7 /* OrderManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8356621FE1865D004199B7 /* OrderManagerCell.m */; };
+		BF8356651FE1865D004199B7 /* OrderManagerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8356631FE1865D004199B7 /* OrderManagerCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF8355881FDD640F004199B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8355671FDD640F004199B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF83556E1FDD640F004199B7;
+			remoteInfo = "酒店客房管理系统";
+		};
+		BF8355931FDD640F004199B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8355671FDD640F004199B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF83556E1FDD640F004199B7;
+			remoteInfo = "酒店客房管理系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C611A71092C71AE93986CCF /* libPods-酒店客房管理系统.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-酒店客房管理系统.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF83556F1FDD640F004199B7 /* 酒店客房管理系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "酒店客房管理系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8355721FDD640F004199B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF8355731FDD640F004199B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF83557B1FDD640F004199B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF83557E1FDD640F004199B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8355801FDD640F004199B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8355811FDD640F004199B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8355871FDD640F004199B7 /* 酒店客房管理系统Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "酒店客房管理系统Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF83558B1FDD640F004199B7 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		BF83558D1FDD640F004199B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8355921FDD640F004199B7 /* 酒店客房管理系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "酒店客房管理系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8355961FDD640F004199B7 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		BF8355981FDD640F004199B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8355A41FDD6850004199B7 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BF8355A61FDD68F3004199B7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BF8355A71FDD68F3004199B7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BF8355A81FDD68F3004199B7 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BF8355AC1FDD813C004199B7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BF8355AD1FDD813C004199B7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BF8355AE1FDD813C004199B7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BF8355B21FDFD1C7004199B7 /* C415F3F13BBD50B1-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "C415F3F13BBD50B1-info.plist"; sourceTree = "<group>"; };
+		BF8355B31FDFD1C7004199B7 /* STLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLVideoViewController.h; sourceTree = "<group>"; };
+		BF8355B41FDFD1C7004199B7 /* STLVideoFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLVideoFunctions.m; sourceTree = "<group>"; };
+		BF8355B51FDFD1C7004199B7 /* STLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLVideoViewController.m; sourceTree = "<group>"; };
+		BF8355B61FDFD1C7004199B7 /* STLVideoFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLVideoFunctions.h; sourceTree = "<group>"; };
+		BF8355BB1FDFD49F004199B7 /* BridgeLoop-640p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BridgeLoop-640p.mp4"; sourceTree = "<group>"; };
+		BF8356101FE0CDE7004199B7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BF8356111FE0CDE7004199B7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BF8356121FE0CDE7004199B7 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		BF8356161FE0CF63004199B7 /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		BF8356171FE0CF63004199B7 /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		BF8356181FE0CF63004199B7 /* LeftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		BF8356391FE11B62004199B7 /* OrderManageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderManageViewController.h; sourceTree = "<group>"; };
+		BF83563A1FE11B62004199B7 /* OrderManageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderManageViewController.m; sourceTree = "<group>"; };
+		BF83563B1FE11B62004199B7 /* OrderManageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderManageViewController.xib; sourceTree = "<group>"; };
+		BF83563E1FE11C16004199B7 /* GuestInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestInfoViewController.h; sourceTree = "<group>"; };
+		BF83563F1FE11C16004199B7 /* GuestInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestInfoViewController.m; sourceTree = "<group>"; };
+		BF8356401FE11C16004199B7 /* GuestInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestInfoViewController.xib; sourceTree = "<group>"; };
+		BF8356431FE11C28004199B7 /* BusinessStatisticsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessStatisticsViewController.h; sourceTree = "<group>"; };
+		BF8356441FE11C28004199B7 /* BusinessStatisticsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessStatisticsViewController.m; sourceTree = "<group>"; };
+		BF8356451FE11C28004199B7 /* BusinessStatisticsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessStatisticsViewController.xib; sourceTree = "<group>"; };
+		BF8356481FE11C3B004199B7 /* GuestHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestHistoryViewController.h; sourceTree = "<group>"; };
+		BF8356491FE11C3B004199B7 /* GuestHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestHistoryViewController.m; sourceTree = "<group>"; };
+		BF83564A1FE11C3B004199B7 /* GuestHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestHistoryViewController.xib; sourceTree = "<group>"; };
+		BF83564E1FE121F5004199B7 /* GuestInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestInfoModel.h; sourceTree = "<group>"; };
+		BF83564F1FE121F5004199B7 /* GuestInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestInfoModel.m; sourceTree = "<group>"; };
+		BF8356511FE14BA3004199B7 /* GuestDetailInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuestDetailInfoViewController.h; sourceTree = "<group>"; };
+		BF8356521FE14BA3004199B7 /* GuestDetailInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestDetailInfoViewController.m; sourceTree = "<group>"; };
+		BF8356531FE14BA3004199B7 /* GuestDetailInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestDetailInfoViewController.xib; sourceTree = "<group>"; };
+		BF8356571FE17A4D004199B7 /* YAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisView.h; sourceTree = "<group>"; };
+		BF8356581FE17A4D004199B7 /* XAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
+		BF8356591FE17A4D004199B7 /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
+		BF83565A1FE17A4D004199B7 /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
+		BF83565B1FE17A4D004199B7 /* YAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisView.m; sourceTree = "<group>"; };
+		BF83565C1FE17A4D004199B7 /* XAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisView.h; sourceTree = "<group>"; };
+		BF8356611FE1865D004199B7 /* OrderManagerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderManagerCell.h; sourceTree = "<group>"; };
+		BF8356621FE1865D004199B7 /* OrderManagerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderManagerCell.m; sourceTree = "<group>"; };
+		BF8356631FE1865D004199B7 /* OrderManagerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderManagerCell.xib; sourceTree = "<group>"; };
+		E8FC3DE3A85995DA89817C02 /* Pods-酒店客房管理系统.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-酒店客房管理系统.release.xcconfig"; path = "Pods/Target Support Files/Pods-酒店客房管理系统/Pods-酒店客房管理系统.release.xcconfig"; sourceTree = "<group>"; };
+		F2ED33A907CD46CFF5A4E9DC /* Pods-酒店客房管理系统.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-酒店客房管理系统.debug.xcconfig"; path = "Pods/Target Support Files/Pods-酒店客房管理系统/Pods-酒店客房管理系统.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF83556C1FDD640F004199B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381E5A64693BC33B8CCA4B81 /* libPods-酒店客房管理系统.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8355841FDD640F004199B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF83558F1FDD640F004199B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3306C5F4302AB7773336F10A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C611A71092C71AE93986CCF /* libPods-酒店客房管理系统.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BB6EB950F068CAE7F3E1299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED33A907CD46CFF5A4E9DC /* Pods-酒店客房管理系统.debug.xcconfig */,
+				E8FC3DE3A85995DA89817C02 /* Pods-酒店客房管理系统.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF8355661FDD640F004199B7 = {
+			isa = PBXGroup;
+			children = (
+				BF8355711FDD640F004199B7 /* 酒店客房管理系统 */,
+				BF83558A1FDD640F004199B7 /* 酒店客房管理系统Tests */,
+				BF8355951FDD640F004199B7 /* 酒店客房管理系统UITests */,
+				BF8355701FDD640F004199B7 /* Products */,
+				4BB6EB950F068CAE7F3E1299 /* Pods */,
+				3306C5F4302AB7773336F10A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8355701FDD640F004199B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF83556F1FDD640F004199B7 /* 酒店客房管理系统.app */,
+				BF8355871FDD640F004199B7 /* 酒店客房管理系统Tests.xctest */,
+				BF8355921FDD640F004199B7 /* 酒店客房管理系统UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8355711FDD640F004199B7 /* 酒店客房管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				BF8355BA1FDFD49F004199B7 /* Sources */,
+				BF8355B11FDFD1C7004199B7 /* STLBGVideo */,
+				BF8355A51FDD68E0004199B7 /* Login */,
+				BF83560F1FE0CDD9004199B7 /* RootViewController */,
+				BF8356151FE0CF58004199B7 /* LeftViewController */,
+				BF8355AB1FDD811C004199B7 /* Home */,
+				BF8356221FE113FA004199B7 /* 预定管理 */,
+				BF8356241FE113FA004199B7 /* 客人信息 */,
+				BF8356231FE113FA004199B7 /* 业务统计 */,
+				BF8356211FE113FA004199B7 /* 客史档案 */,
+				BF8355721FDD640F004199B7 /* AppDelegate.h */,
+				BF8355731FDD640F004199B7 /* AppDelegate.m */,
+				BF8355A41FDD6850004199B7 /* Header.h */,
+				BF83557B1FDD640F004199B7 /* Assets.xcassets */,
+				BF83557D1FDD640F004199B7 /* LaunchScreen.storyboard */,
+				BF8355801FDD640F004199B7 /* Info.plist */,
+				BF8355811FDD640F004199B7 /* main.m */,
+			);
+			path = "酒店客房管理系统";
+			sourceTree = "<group>";
+		};
+		BF83558A1FDD640F004199B7 /* 酒店客房管理系统Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF83558B1FDD640F004199B7 /* ________Tests.m */,
+				BF83558D1FDD640F004199B7 /* Info.plist */,
+			);
+			path = "酒店客房管理系统Tests";
+			sourceTree = "<group>";
+		};
+		BF8355951FDD640F004199B7 /* 酒店客房管理系统UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8355961FDD640F004199B7 /* ________UITests.m */,
+				BF8355981FDD640F004199B7 /* Info.plist */,
+			);
+			path = "酒店客房管理系统UITests";
+			sourceTree = "<group>";
+		};
+		BF8355A51FDD68E0004199B7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BF8355A61FDD68F3004199B7 /* LoginViewController.h */,
+				BF8355A71FDD68F3004199B7 /* LoginViewController.m */,
+				BF8355A81FDD68F3004199B7 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BF8355AB1FDD811C004199B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF8355AC1FDD813C004199B7 /* HomeViewController.h */,
+				BF8355AD1FDD813C004199B7 /* HomeViewController.m */,
+				BF8355AE1FDD813C004199B7 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF8355B11FDFD1C7004199B7 /* STLBGVideo */ = {
+			isa = PBXGroup;
+			children = (
+				BF8355B21FDFD1C7004199B7 /* C415F3F13BBD50B1-info.plist */,
+				BF8355B61FDFD1C7004199B7 /* STLVideoFunctions.h */,
+				BF8355B41FDFD1C7004199B7 /* STLVideoFunctions.m */,
+				BF8355B31FDFD1C7004199B7 /* STLVideoViewController.h */,
+				BF8355B51FDFD1C7004199B7 /* STLVideoViewController.m */,
+			);
+			path = STLBGVideo;
+			sourceTree = "<group>";
+		};
+		BF8355BA1FDFD49F004199B7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF8355BB1FDFD49F004199B7 /* BridgeLoop-640p.mp4 */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BF83560F1FE0CDD9004199B7 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF8356101FE0CDE7004199B7 /* RootViewController.h */,
+				BF8356111FE0CDE7004199B7 /* RootViewController.m */,
+				BF8356121FE0CDE7004199B7 /* RootViewController.xib */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		BF8356151FE0CF58004199B7 /* LeftViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF8356161FE0CF63004199B7 /* LeftViewController.h */,
+				BF8356171FE0CF63004199B7 /* LeftViewController.m */,
+				BF8356181FE0CF63004199B7 /* LeftViewController.xib */,
+			);
+			path = LeftViewController;
+			sourceTree = "<group>";
+		};
+		BF8356211FE113FA004199B7 /* 客史档案 */ = {
+			isa = PBXGroup;
+			children = (
+				BF8356481FE11C3B004199B7 /* GuestHistoryViewController.h */,
+				BF8356491FE11C3B004199B7 /* GuestHistoryViewController.m */,
+				BF83564A1FE11C3B004199B7 /* GuestHistoryViewController.xib */,
+			);
+			path = "客史档案";
+			sourceTree = "<group>";
+		};
+		BF8356221FE113FA004199B7 /* 预定管理 */ = {
+			isa = PBXGroup;
+			children = (
+				BF8356601FE1863A004199B7 /* View */,
+				BF8356391FE11B62004199B7 /* OrderManageViewController.h */,
+				BF83563A1FE11B62004199B7 /* OrderManageViewController.m */,
+				BF83563B1FE11B62004199B7 /* OrderManageViewController.xib */,
+			);
+			path = "预定管理";
+			sourceTree = "<group>";
+		};
+		BF8356231FE113FA004199B7 /* 业务统计 */ = {
+			isa = PBXGroup;
+			children = (
+				BF8356561FE17A3D004199B7 /* LineChartView */,
+				BF8356431FE11C28004199B7 /* BusinessStatisticsViewController.h */,
+				BF8356441FE11C28004199B7 /* BusinessStatisticsViewController.m */,
+				BF8356451FE11C28004199B7 /* BusinessStatisticsViewController.xib */,
+			);
+			path = "业务统计";
+			sourceTree = "<group>";
+		};
+		BF8356241FE113FA004199B7 /* 客人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				BF83564D1FE121E4004199B7 /* Model */,
+				BF83563E1FE11C16004199B7 /* GuestInfoViewController.h */,
+				BF83563F1FE11C16004199B7 /* GuestInfoViewController.m */,
+				BF8356401FE11C16004199B7 /* GuestInfoViewController.xib */,
+				BF8356511FE14BA3004199B7 /* GuestDetailInfoViewController.h */,
+				BF8356521FE14BA3004199B7 /* GuestDetailInfoViewController.m */,
+				BF8356531FE14BA3004199B7 /* GuestDetailInfoViewController.xib */,
+			);
+			path = "客人信息";
+			sourceTree = "<group>";
+		};
+		BF83564D1FE121E4004199B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF83564E1FE121F5004199B7 /* GuestInfoModel.h */,
+				BF83564F1FE121F5004199B7 /* GuestInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF8356561FE17A3D004199B7 /* LineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				BF8356591FE17A4D004199B7 /* WSLineChartView.h */,
+				BF83565A1FE17A4D004199B7 /* WSLineChartView.m */,
+				BF83565C1FE17A4D004199B7 /* XAxisView.h */,
+				BF8356581FE17A4D004199B7 /* XAxisView.m */,
+				BF8356571FE17A4D004199B7 /* YAxisView.h */,
+				BF83565B1FE17A4D004199B7 /* YAxisView.m */,
+			);
+			name = LineChartView;
+			path = "酒店客房管理系统/LineChartView";
+			sourceTree = SOURCE_ROOT;
+		};
+		BF8356601FE1863A004199B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF8356611FE1865D004199B7 /* OrderManagerCell.h */,
+				BF8356621FE1865D004199B7 /* OrderManagerCell.m */,
+				BF8356631FE1865D004199B7 /* OrderManagerCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF83556E1FDD640F004199B7 /* 酒店客房管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF83559B1FDD640F004199B7 /* Build configuration list for PBXNativeTarget "酒店客房管理系统" */;
+			buildPhases = (
+				452E5DC2295F5D5BDCB06221 /* [CP] Check Pods Manifest.lock */,
+				BF83556B1FDD640F004199B7 /* Sources */,
+				BF83556C1FDD640F004199B7 /* Frameworks */,
+				BF83556D1FDD640F004199B7 /* Resources */,
+				F7FBA49D2B1639FFE698F5FD /* [CP] Embed Pods Frameworks */,
+				059B2678A048527FEC9A3C49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "酒店客房管理系统";
+			productName = "酒店客房管理系统";
+			productReference = BF83556F1FDD640F004199B7 /* 酒店客房管理系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF8355861FDD640F004199B7 /* 酒店客房管理系统Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF83559E1FDD640F004199B7 /* Build configuration list for PBXNativeTarget "酒店客房管理系统Tests" */;
+			buildPhases = (
+				BF8355831FDD640F004199B7 /* Sources */,
+				BF8355841FDD640F004199B7 /* Frameworks */,
+				BF8355851FDD640F004199B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8355891FDD640F004199B7 /* PBXTargetDependency */,
+			);
+			name = "酒店客房管理系统Tests";
+			productName = "酒店客房管理系统Tests";
+			productReference = BF8355871FDD640F004199B7 /* 酒店客房管理系统Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF8355911FDD640F004199B7 /* 酒店客房管理系统UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8355A11FDD640F004199B7 /* Build configuration list for PBXNativeTarget "酒店客房管理系统UITests" */;
+			buildPhases = (
+				BF83558E1FDD640F004199B7 /* Sources */,
+				BF83558F1FDD640F004199B7 /* Frameworks */,
+				BF8355901FDD640F004199B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8355941FDD640F004199B7 /* PBXTargetDependency */,
+			);
+			name = "酒店客房管理系统UITests";
+			productName = "酒店客房管理系统UITests";
+			productReference = BF8355921FDD640F004199B7 /* 酒店客房管理系统UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8355671FDD640F004199B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = shadow2017;
+				TargetAttributes = {
+					BF83556E1FDD640F004199B7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF8355861FDD640F004199B7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF83556E1FDD640F004199B7;
+					};
+					BF8355911FDD640F004199B7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF83556E1FDD640F004199B7;
+					};
+				};
+			};
+			buildConfigurationList = BF83556A1FDD640F004199B7 /* Build configuration list for PBXProject "酒店客房管理系统" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8355661FDD640F004199B7;
+			productRefGroup = BF8355701FDD640F004199B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF83556E1FDD640F004199B7 /* 酒店客房管理系统 */,
+				BF8355861FDD640F004199B7 /* 酒店客房管理系统Tests */,
+				BF8355911FDD640F004199B7 /* 酒店客房管理系统UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF83556D1FDD640F004199B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF83557F1FDD640F004199B7 /* LaunchScreen.storyboard in Resources */,
+				BF83561A1FE0CF63004199B7 /* LeftViewController.xib in Resources */,
+				BF8356471FE11C28004199B7 /* BusinessStatisticsViewController.xib in Resources */,
+				BF8356421FE11C16004199B7 /* GuestInfoViewController.xib in Resources */,
+				BF8356651FE1865D004199B7 /* OrderManagerCell.xib in Resources */,
+				BF83564C1FE11C3B004199B7 /* GuestHistoryViewController.xib in Resources */,
+				BF83557C1FDD640F004199B7 /* Assets.xcassets in Resources */,
+				BF8355AA1FDD68F3004199B7 /* LoginViewController.xib in Resources */,
+				BF8355B01FDD813C004199B7 /* HomeViewController.xib in Resources */,
+				BF8356141FE0CDE7004199B7 /* RootViewController.xib in Resources */,
+				BF8355BC1FDFD49F004199B7 /* BridgeLoop-640p.mp4 in Resources */,
+				BF8356551FE14BA3004199B7 /* GuestDetailInfoViewController.xib in Resources */,
+				BF83563D1FE11B62004199B7 /* OrderManageViewController.xib in Resources */,
+				BF8355B71FDFD1C7004199B7 /* C415F3F13BBD50B1-info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8355851FDD640F004199B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8355901FDD640F004199B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		059B2678A048527FEC9A3C49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-酒店客房管理系统/Pods-酒店客房管理系统-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452E5DC2295F5D5BDCB06221 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FBA49D2B1639FFE698F5FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-酒店客房管理系统/Pods-酒店客房管理系统-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF83556B1FDD640F004199B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8356501FE121F5004199B7 /* GuestInfoModel.m in Sources */,
+				BF8355821FDD640F004199B7 /* main.m in Sources */,
+				BF8356191FE0CF63004199B7 /* LeftViewController.m in Sources */,
+				BF8356131FE0CDE7004199B7 /* RootViewController.m in Sources */,
+				BF8355741FDD640F004199B7 /* AppDelegate.m in Sources */,
+				BF83564B1FE11C3B004199B7 /* GuestHistoryViewController.m in Sources */,
+				BF83563C1FE11B62004199B7 /* OrderManageViewController.m in Sources */,
+				BF8355B91FDFD1C7004199B7 /* STLVideoViewController.m in Sources */,
+				BF8356641FE1865D004199B7 /* OrderManagerCell.m in Sources */,
+				BF8356541FE14BA3004199B7 /* GuestDetailInfoViewController.m in Sources */,
+				BF8356411FE11C16004199B7 /* GuestInfoViewController.m in Sources */,
+				BF8356461FE11C28004199B7 /* BusinessStatisticsViewController.m in Sources */,
+				BF83565E1FE17A4D004199B7 /* WSLineChartView.m in Sources */,
+				BF8355B81FDFD1C7004199B7 /* STLVideoFunctions.m in Sources */,
+				BF8355A91FDD68F3004199B7 /* LoginViewController.m in Sources */,
+				BF83565F1FE17A4D004199B7 /* YAxisView.m in Sources */,
+				BF83565D1FE17A4D004199B7 /* XAxisView.m in Sources */,
+				BF8355AF1FDD813C004199B7 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8355831FDD640F004199B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF83558C1FDD640F004199B7 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF83558E1FDD640F004199B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8355971FDD640F004199B7 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8355891FDD640F004199B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF83556E1FDD640F004199B7 /* 酒店客房管理系统 */;
+			targetProxy = BF8355881FDD640F004199B7 /* PBXContainerItemProxy */;
+		};
+		BF8355941FDD640F004199B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF83556E1FDD640F004199B7 /* 酒店客房管理系统 */;
+			targetProxy = BF8355931FDD640F004199B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF83557D1FDD640F004199B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF83557E1FDD640F004199B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8355991FDD640F004199B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF83559A1FDD640F004199B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF83559C1FDD640F004199B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2ED33A907CD46CFF5A4E9DC /* Pods-酒店客房管理系统.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z35C8W326D;
+				INFOPLIST_FILE = "酒店客房管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareddeliciouscn.aaro.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF83559D1FDD640F004199B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FC3DE3A85995DA89817C02 /* Pods-酒店客房管理系统.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z35C8W326D;
+				INFOPLIST_FILE = "酒店客房管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareddeliciouscn.aaro.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF83559F1FDD640F004199B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "酒店客房管理系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareddeliciouscn.aaro.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/酒店客房管理系统.app/酒店客房管理系统";
+			};
+			name = Debug;
+		};
+		BF8355A01FDD640F004199B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "酒店客房管理系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareddeliciouscn.aaro.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/酒店客房管理系统.app/酒店客房管理系统";
+			};
+			name = Release;
+		};
+		BF8355A21FDD640F004199B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "酒店客房管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareddeliciouscn.aaro.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "酒店客房管理系统";
+			};
+			name = Debug;
+		};
+		BF8355A31FDD640F004199B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "酒店客房管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareddeliciouscn.aaro.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "酒店客房管理系统";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF83556A1FDD640F004199B7 /* Build configuration list for PBXProject "酒店客房管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8355991FDD640F004199B7 /* Debug */,
+				BF83559A1FDD640F004199B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF83559B1FDD640F004199B7 /* Build configuration list for PBXNativeTarget "酒店客房管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF83559C1FDD640F004199B7 /* Debug */,
+				BF83559D1FDD640F004199B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF83559E1FDD640F004199B7 /* Build configuration list for PBXNativeTarget "酒店客房管理系统Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF83559F1FDD640F004199B7 /* Debug */,
+				BF8355A01FDD640F004199B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8355A11FDD640F004199B7 /* Build configuration list for PBXNativeTarget "酒店客房管理系统UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8355A21FDD640F004199B7 /* Debug */,
+				BF8355A31FDD640F004199B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8355671FDD640F004199B7 /* Project object */;
+}

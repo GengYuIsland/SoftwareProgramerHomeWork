@@ -1,0 +1,6 @@
+target "酒店客房管理系统" do
+  pod 'SVProgressHUD'
+  pod 'SDCycleScrollView'
+  pod 'TPKeyboardAvoiding'
+  pod 'Masonry'
+end
